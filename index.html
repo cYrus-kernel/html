@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Basic Page Needs-->
+        <meta charset = "UTF-8"/>
+        <meta name = "description" content = "This is Cyrus's HTML learning website. Welcome and join."/>
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
+        <meta name = "keywords" content = "Cyrus, HTML, CSS, JavaScript"/>
+        <meta name = "author" content = "cyrus"/>
+        <title>Cyrus's HTML Learning</title>
+    </head>
+    <body vlink = "green" alink = "yellow">
+        <!--initialization-->
+        Hello, world! It's Cyrus studying in NCU Computer Science.
+        <p>中文測試</p> <!-- paragraph-->
+        <!--basic tags-->
+        <h2>First Paragraph</h2>
+        <p>Yesterday is <i><b>thursday</b></i>.</p>
+        <br/>   <!-- break line-->
+        <br></br>
+        <h2>Second Paragraph</h2>
+        <p>Today is <i>friday</i>.</p>
+        <!--  link & image-->
+        <a href = "https://www.youtube.com">youtube</a> <!-- anchor & hypertext reference-->
+        <br/>
+        <a href = "page2.html">go to page two</a>
+        <br/>
+        <a href = "dir/page3.html">go to page three</a>
+        <br/>
+        <a href = "Climb.jpg">Climbing</a>
+        <br/>
+        <img src = "Climb.jpg" width="400" height="400"/>
+        <br/>
+        <img src = "Climb.jpg" width="400"/>
+        <!-- video & embed youtube video-->
+        <br/>
+        <video src = "第1講_網路架構.mp4" width = "800" controls>Video cannot be presented.</video>
+        <br/>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HQaDd_nEb0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- list & table-->
+        <br/>
+        <ul>    <!-- unordered list-->
+            <li>google</li> <!-- list items-->
+            <li>facebook</li>
+            <li>instagram</li>
+        </ul>
+        <ol> <!-- ordered list-->
+            <li>google</li>
+            <li>facebook</li>
+            <li>instagram</li>
+        </ol>
+        <ol type = "A" style = "color : blue;">
+            <li>google</li>
+            <li>facebook</li>
+            <li>instagram</li>
+        </ol>
+        <table width = "400" style = "color : blue;">
+            <tr>    <!-- table row-->
+                    <td>Date</td>   <!-- table data-->
+                    <td>Math</td>
+                    <td>English</td>
+            </tr>
+            <tr>
+                <td>3/4</td>
+                <td>62</td>
+                <td>96</td>
+            </tr>
+            <tr>
+                <td>3/5</td>
+                <td>68</td>
+                <td>92</td>
+            </tr>
+        </table>
+        <!-- div % span-->
+        <div style = "color : green;">  <!-- division-->
+            <ol type = "A">
+                <li>google</li>
+                <li>facebook</li>
+                <li>instagram</li>
+            </ol>
+            <table width = "400">
+                <tr>
+                        <td>Date</td>
+                        <td>Math</td>
+                        <td>English</td>
+                </tr>
+                <tr>
+                    <td>3/4</td>
+                    <td>62</td>
+                    <td>96</td>
+                </tr>
+                <tr>
+                    <td>3/5</td>
+                    <td>68</td>
+                    <td>92</td>
+                </tr>
+            </table>
+        </div>
+        <span>span1</span>
+        <span>span2</span>
+        <hr/>
+        <div>div1</div>
+        <div>div2</div>
+        <!-- input & textarea-->
+        <input type = "text" placeholder = "account"/>
+        <br/>
+        <br/>
+        <input type = "password" placeholder = "password"/>
+        <br/>
+        <br/>
+        <input type = "date"/>
+        <br/>
+        <br/>
+        <input type = "range"/>
+        <br/>
+        <br/>
+        <input type = "file"/>
+        <br/>
+        <br/>
+        <input type = "checkbox"/>
+        <br/>
+        <br/>
+        <textarea>input text</textarea>
+        <!-- css-->
+        <div style = "color : brown; font-size : 20px;">
+            <h2 style = "color : green; border : 1px solid black;">css learning</h1>
+            <p style = "background-color : grey; border : 5px dashed blue">a paragraph</p>
+            <p style = "border : 5px dotted orange; max-width : 200px; height : 50px">another paragraph</p>
+        </div>
+        <!-- color-->
+        <p style = "color : rgb(204, 255, 102)">color test</p>
+        <p style = "color : #ccff66">another color test</p>
+        <p style = "color : hsl(80, 100%, 70%)">the other color test</p>
+        <!-- padding margin-->
+        <div style = "padding-left : 20px; margin : -80px 30px 40px 50px; background-color : lightblue; border: 2px solid black;">
+            <p>padding & margin learning</p>
+        </div>
+        <!--float & display-->
+        <div>
+            <img src = "beforeFloat.png" width = "600"/>
+            <p style = "/*margin : 0px 0px 0px 425px*/">before float.</p>
+            <img src = "afterFloat.png" width = "600" style = "float : right"/>
+            <p style = "margin : 0px 0px 250px 0px">after float.</p>
+        </div>
+        <div>
+            <!-- block-->
+            <p >block1 paragraph</p>
+            <p>block2 paragraph</p>
+            <span style = "display :block">block3 span</span>
+            <!-- inline-->
+            <span>inline1 span</span>
+            <span>inline2 span</span>
+            <p style = "display : inline">inline3 paragraph</p>
+        </div>
+        <!-- position-->
+        <div style = "position : fixed; top : 20px; right : 20px; width : 80px; height : 80px; background-color : blueviolet"></div>
+        <div style = "width : 120px; height : 120px; background-color : red"></div>
+        <div style = "position : relative; top : -30px; left : 10px; width : 160px; height : 160px; background-color : blue"></div>
+        <br/>
+        <div style = "padding : 30px; border : 5px solid blue">
+            <div style = "padding : 30px; border : 5px solid blue">
+                <div style = "position : absolute; left : 100px; width : 40px; height : 40px; background-color : blueviolet"></div>
+            </div>
+        </div>
+        <br/>
+        <div style = "padding : 30px; border : 5px solid blue">
+            <div style = "position : relative; padding : 30px; border : 5px solid blue">
+                <div style = "position : absolute; left : 100px; bottom : 0px; width : 40px; height : 40px; background-color : blueviolet"></div>
+            </div>
+        </div>
+        <br/>
+        <div style = "position : relative; padding : 30px; border : 5px solid blue">
+            <div style = "padding : 30px; border : 5px solid blue">
+                <div style = "position : absolute; left : 100px; bottom : 0px; width : 40px; height : 40px; background-color : blueviolet"></div>
+            </div>
+        </div>
+        <br/>
+        <!-- opacity & border radius-->
+        
+    </body>
+    
+</html>
